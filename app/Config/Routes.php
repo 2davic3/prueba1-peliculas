@@ -15,4 +15,5 @@ $routes->get('/', 'Home::index');
 //             Ruta         Archivo:: Funcion
 
 $routes->presenter('pelicula');
+$routes->presenter('categoria');
 
